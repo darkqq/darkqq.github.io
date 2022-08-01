@@ -2,6 +2,13 @@ var circ = document.querySelectorAll('#sunglasses');
 var newq;
 let h,w,nh,nw,s; 
 
+window.onclick=function(){
+  document.getElementById("audio").play();
+}
+
+var audio = document.getElementById("audio");
+audio.volume = 0.3;
+
 function newPosition(){   
   h = parent.innerHeight;
   w = window.innerWidth;
