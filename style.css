@@ -1,0 +1,31 @@
+
+
+.circ {
+position:fixed;
+width: 6%;
+height: 6%;
+background: url(1f60e.gif) no-repeat center center;
+background-size: contain;
+}
+
+.roflan {
+  position:fixed;
+  width: 15%;
+  height: 15%;
+  background: url(roflan.png) no-repeat center center;
+  background-size: contain;
+}
+
+.rotate {
+    -webkit-animation: rotation 0.8s infinite linear;
+}
+  
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+  
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
