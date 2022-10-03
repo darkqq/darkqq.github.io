@@ -16,6 +16,14 @@ background-size: contain;
   background-size: contain;
 }
 
+.livesey{
+    position:fixed;
+    width: 7%;
+    height: 7%;
+    background: url(okay.gif) no-repeat center center;
+    background-size: contain;
+}
+
 .rotate {
     -webkit-animation: rotation 0.8s infinite linear;
 }
