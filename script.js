@@ -55,10 +55,12 @@ function animateTitle() {
             setTimeout(function () {
                 document.title = value;
             }, 3500 + 250 * index)
-        })
+        });
+
+    setInterval(function () {
+        animateTitle();
+    }, 7000);
 }
 
 animateTitle();
-setInterval(function () {
-    animateTitle();
-}, 7000);
+
